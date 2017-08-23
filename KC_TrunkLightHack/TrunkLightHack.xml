@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Mark.Smith/Dropbox/personal/SurfnCircuits/BMW_E36_TrunkLightHack/KC_TrunkLightHack/TrunkLightHack.sch</source>
+    <date>8/9/2017 6:08:38 PM</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TrunkLightHack.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D2">
+      <value>TL431AIZT</value>
+      <footprint>TO-92</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/stmicroelectronics/TL431AIZT/497-2226-1-ND/599208</datasheet>
+      <libsource lib="references" part="TL431LP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987ADA8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987AE25</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10MEG</value>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNV.pdf</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987AE5E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100uF 16v</value>
+      <datasheet>https://www.digikey.com/product-detail/en/nichicon/URZ1C101MDD1TD/493-11663-1-ND/4320360</datasheet>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987AEA0</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987AEC9</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>ZVP3306A</value>
+      <datasheet>https://www.digikey.com/product-detail/en/diodes-incorporated/ZVP3306A/ZVP3306A-ND/92625</datasheet>
+      <libsource lib="device" part="Q_PMOS_GDS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987D0FE</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904TFCT</value>
+      <footprint>SOT-23</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/fairchild-on-semiconductor/2N3904TF/2N3904TFCT-ND/1626126</datasheet>
+      <libsource lib="transistors" part="MMBT3904"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987D227</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>ZVN3306A</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/diodes-incorporated/ZVN3306A/ZVN3306A-ND/92600</datasheet>
+      <libsource lib="transistors" part="2N7002"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987D2B2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF 50v</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987D328</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987D6D4</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987D854</tstamp>
+    </comp>
+    <comp ref="LA1">
+      <value>Lamp</value>
+      <libsource lib="device" part="Lamp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987E520</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>12v 500mW</value>
+      <datasheet>https://www.digikey.com/product-detail/en/fairchild-on-semiconductor/1N5242BTR/1N5242BFSCT-ND/1532771</datasheet>
+      <libsource lib="TrunkLightHack-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987E685</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>12v 500mW</value>
+      <datasheet>https://www.digikey.com/product-detail/en/fairchild-on-semiconductor/1N5242BTR/1N5242BFSCT-ND/1532771</datasheet>
+      <libsource lib="TrunkLightHack-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5988D574</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="transistors" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Lamp">
+      <description>lamp</description>
+      <fields>
+        <field name="Reference">LA</field>
+        <field name="Value">Lamp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="MMBT3904">
+      <description>40V Vce, 0.2A Ic, NPN, Small Signal Transistor, SOT-23</description>
+      <docs>http://www.nxp.com/documents/data_sheet/MMBT3904.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_GDS">
+      <description>Transistor P-MOSFET with substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="references" part="TL431LP">
+      <description>Shunt Regulator, TO-92</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl431.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TL431LP</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TrunkLightHack-cache" part="ZENER">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="references">
+      <uri>C:\Program Files\KiCad\share\kicad\library\references.lib</uri>
+    </library>
+    <library logical="TrunkLightHack-cache">
+      <uri>C:\Users\Mark.Smith\Dropbox\personal\SurfnCircuits\BMW_E36_TrunkLightHack\KC_TrunkLightHack\TrunkLightHack-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D2-Pad3)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="D2" pin="3"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D2-Pad1)">
+      <node ref="Q2" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(LA1-Pad2)">
+      <node ref="LA1" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="LA1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad1)">
+      <node ref="P1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="D3" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+  </nets>
+</export>
