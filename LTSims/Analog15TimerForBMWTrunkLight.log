@@ -1,25 +1,23 @@
 Circuit: * C:\Users\Mark.Smith\Dropbox\personal\SurfnCircuits\Analog15TimerForBWMTrunkLight\LTSims\Analog15TimerForBMWTrunkLight.asc
 
-Direct Newton iteration for .op point succeeded.
-.step car_battery=-12
-.step car_battery=12
-.step car_battery=40
+.OP point found by inspection.
+Heightened Def Con from 2400 to 2400
 
-Date: Fri Aug 25 20:49:06 2017
-Total elapsed time: 73.313 seconds.
+Date: Sun Aug 27 21:36:06 2017
+Total elapsed time: 29.615 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 902809
-traniter = 902790
-tranpoints = 450744
-accept = 450575
-rejected = 169
-matrix size = 19
-fillins = 8
+totiter = 903160
+traniter = 903160
+tranpoints = 450851
+accept = 450620
+rejected = 232
+matrix size = 28
+fillins = 18
 solver = Normal
-Matrix Compiler1: 1.71 KB object code size  0.8/0.3/[0.2]
-Matrix Compiler2: off  [0.2]/0.4/0.6
+Matrix Compiler1: 2.83 KB object code size  1.5/0.8/[0.5]
+Matrix Compiler2: 2.58 KB object code size  0.7/0.9/[0.4]
 
 
